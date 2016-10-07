@@ -46,19 +46,48 @@ body {
 .navbar.container {
   border: none;
   padding-bottom: 40px;
-}
-.navbar.container > .container,
-.navbar.container-fluid > .container-fluid {
-  margin: 0;
-  padding: 0;
-  width: auto;
-}
 
-.navbar-nav>li>.dropdown-menu {
-  width: 300px;
-  display: block;
+  .navbar-header {
 
-  li {
-    float: left;
+    .region {
+
+      .forest-picture {
+        margin-top: 15px;
+      }
+    }
+  }
+
+  > .row > .navbar-collapse {
+
+    @media #{$tablet} {
+      width: 75% !important;
+    }
+
+    ul.navbar-nav {
+      position: relative;
+      width: 100%;
+
+      .caret {
+        display: none;
+      }
+
+      >li {
+        position: initial;
+
+        >.dropdown-menu {
+          width: 100%;
+          display: block;
+          border: none;
+          background: rgba(255,255,255,0.9);
+          box-shadow: none;
+
+          li {
+            float: left;
+          }
+        }
+      }
+    }
   }
 }
+
+

@@ -1,26 +1,28 @@
-<svg
-     version="1.1"
-     xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="32px" height="32px"
-     viewBox="0 0 32 32" preserveAspectRatio="none">
-   <g>
-<image width="32" height="32" xlink:href="data:image/png;base64,
-iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
-bWFnZVJlYWR5ccllPAAAAohJREFUeNrEl1tIVGEQx12L0BQjoXwpoRfxIQUJuhAIvVRLIRQELYj1
-oKDgpQgVNQhBChQfLFDLoovVS0RQYuqLPUgFgTcQia5CSBBERUiKuv0+GGGJPd/l7Nkc+DNn98w3
-8/++mXNmTigajaasp4T8Ejhx+GIWavOTkbaviRBITWBtIbgDkfT1InAGHAGDkNj2X1NAwFLU3ZgN
-fATnSMezpBIgcAaqWRBPHoFLEJlNVgpWRC943D8FJiDaA3IDOQEc5aNK5Ocou3vDf3u5HgFbNEu/
-gzrs7/smQKAa1BWQEfN3L06ruFcmdWCSa+A8a1acUkCAetTVf4IrqeReBIf3pPhMojbR41QDBDiO
-atc4LRU9ZVk7FXKaZgLyhus2OExbS6FDAV+OV5jxTqAa7DQ4e4qzTegiBwKZoFFLAKdqZ+UGR8Pk
-vwu9A7i+AU8TY6vuBNTjtcvgJB0nJyGhCvAgeO9AIBsc0hHYb+GkGDyGxG1ITHIdlmfeVop1BAoc
-HJ2FxENIqBOodVhXoCOw3TGnEfVCgsQDrmcc0uBJYNVHR20S3R/EPDDvw0c+p6AK94Wl/aKOwLTP
-uSIPfAHLFrYfdAReJzBZ2abvpY7ABHjrg8AcyAEbDXZL4LknAapZGdxyDD4vpPdZ2A7JC0zbC3pl
-R7bSJ70+YjFNtVoNJNKObQbMcXAA7AFjhhGvA6INVvMAhgOoBkNwNQsck5Z8wxB8wGuQ9VwEiQ7U
-BSmcWPkGOiXnv2QS3q0Jru6rCWrZ71BaKH0/JLXxCmd/+F8RuKkJ/gO0YNsd6IcJgcPSfI56mLxT
-3RJcJ/jnoD9MNsg3oZobcqWxqGf/J/gkdTFJ4N9J/zoOSv4KMAC++teHNUg1rQAAAABJRU5ErkJg
-gg==
-"/>
-   </g>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="179.000000pt" height="144.000000pt" viewBox="0 0 179.000000 144.000000"
+ preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by potrace 1.13, written by Peter Selinger 2001-2015
+</metadata>
+<g transform="translate(0.000000,144.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M596 988 c-18 -26 -22 -129 -6 -159 16 -29 95 -27 111 2 16 30 8 157
+-11 169 -28 18 -78 11 -94 -12z"/>
+<path d="M730 956 c0 -29 -3 -74 -6 -100 l-7 -46 32 0 c28 0 31 3 31 29 0 26
+4 30 33 33 31 3 32 4 35 56 4 69 -7 82 -69 82 l-49 0 0 -54z"/>
+<path d="M1070 910 l0 -101 28 3 c20 2 26 8 25 23 -1 11 0 27 3 35 4 13 6 13
+14 0 6 -8 10 -25 10 -37 0 -18 6 -23 25 -23 23 0 25 4 25 44 0 25 -5 48 -10
+51 -7 4 -7 12 0 25 5 10 10 33 10 50 0 28 -3 31 -27 28 -23 -2 -29 -9 -34 -38
+-4 -26 -8 -31 -13 -19 -4 10 -6 25 -4 35 2 14 -4 20 -24 22 l-28 3 0 -101z"/>
+<path d="M862 738 c-6 -6 -12 -33 -12 -59 0 -42 3 -48 23 -51 12 -2 22 -10 22
+-18 0 -8 -10 -16 -22 -18 -15 -2 -23 -10 -23 -23 0 -16 7 -19 49 -19 54 0 61
+8 61 63 0 39 -8 52 -37 61 -13 4 -23 12 -23 17 0 9 7 11 40 13 8 1 15 10 15
+21 0 16 -8 21 -40 23 -23 2 -46 -3 -53 -10z"/>
+<path d="M1080 651 l0 -101 30 0 c28 0 30 3 30 35 0 19 5 35 10 35 6 0 10 -16
+10 -36 0 -32 2 -35 27 -32 l26 3 -1 95 c-1 94 -1 95 -26 98 -24 3 -26 0 -26
+-32 0 -48 -18 -55 -22 -9 -3 33 -7 38 -30 41 l-28 3 0 -100z"/>
+</g>
 </svg>
-
