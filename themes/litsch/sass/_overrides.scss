@@ -6,6 +6,7 @@
 @import "component/file";
 @import "component/filter";
 @import "component/form";
+@import "component/grid";
 @import "component/icon";
 @import "component/navbar";
 @import "component/node";
@@ -32,10 +33,8 @@ ol, ul {
 
 // Footer.
 .footer {
-  margin-top: 45px;
   padding-top: 35px;
   padding-bottom: 36px;
-  border-top: 1px solid #E5E5E5;
 }
 
 // Paragraphs.

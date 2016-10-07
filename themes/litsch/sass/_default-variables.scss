@@ -12,3 +12,31 @@
 
 // Set the proper directory for the Bootstrap Glyphicon font.
 $icon-font-path: '../bootstrap/assets/fonts/bootstrap/';
+
+$white:                 #fff;
+
+$gray-base:             #000;
+$dark-green:            #29503B;
+$mineral_green:         #3e614e;
+$plantation:            #29503b;
+
+$body-bg:               $dark-green;
+$text-color:            $gray-base;
+$link-color:            $mineral_green;
+$link-hover-color:      $plantation;
+
+$font-family-sans-serif:  "Verdana", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headings-font-weight:    bold;
+
+$border-radius-base: 0;
+
+$screen-sm:                   940px;
+$screen-md:                   $screen-sm;
+$screen-lg:                   $screen-sm;
+
+$grid-gutter-width:           40px;
+$container-desktop:           (940px + $grid-gutter-width);
+$container-large-desktop:     $container-desktop;
+
+$navbar-default-bg: $white;
+$navbar-margin-bottom: 0;

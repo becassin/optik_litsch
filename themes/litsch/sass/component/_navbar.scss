@@ -44,19 +44,21 @@ body {
   }
 }
 .navbar.container {
-  @media #{$tablet} {
-    max-width: (($container-sm - $grid-gutter-width));
-  }
-  @media #{$normal} {
-    max-width: (($container-md - $grid-gutter-width));
-  }
-  @media #{$wide} {
-    max-width: (($container-lg - $grid-gutter-width));
-  }
+  border: none;
+  padding-bottom: 40px;
 }
 .navbar.container > .container,
 .navbar.container-fluid > .container-fluid {
   margin: 0;
   padding: 0;
   width: auto;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  width: 300px;
+  display: block;
+
+  li {
+    float: left;
+  }
 }
