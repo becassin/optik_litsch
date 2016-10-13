@@ -1,0 +1,18 @@
+.logo-large {
+  margin: 20px auto;
+}
+
+.main-menu-container {
+  max-width: 100%;
+
+  .main-menu-wrapper {
+    padding: 0;
+
+    li:first-child {
+
+      a {
+        padding-left: 0;
+      }
+    }
+  }
+}

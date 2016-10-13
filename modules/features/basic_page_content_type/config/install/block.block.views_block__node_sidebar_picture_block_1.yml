@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.node_sidebar_picture
+  module:
+    - node
+    - views
+  theme:
+    - litsch
+id: views_block__node_sidebar_picture_block_1
+theme: litsch
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'views_block:node_sidebar_picture-block_1'
+settings:
+  id: 'views_block:node_sidebar_picture-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
