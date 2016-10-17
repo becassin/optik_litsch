@@ -46,46 +46,57 @@ body {
 .navbar.container {
   border: none;
 
+  .name.navbar-brand {
+    display: none;
+  }
+
   .navbar-header {
 
-    .region {
+    @media #{$tablet} {
+      width: 25% !important;
+      min-height: 1px;
 
-      .forest-picture {
-        margin-top: 15px;
+      .logo-big {
+        position: absolute;
       }
     }
   }
 
-  > .row > .navbar-collapse {
+  > .navbar-collapse {
+
 
     @media #{$tablet} {
-      width: 75% !important;
-    }
+      ul.navbar-nav {
+        position: relative;
 
-    ul.navbar-nav {
-      position: relative;
-      width: 100%;
+        .caret {
+          display: none;
+        }
 
-      .caret {
-        display: none;
-      }
+        >li {
+          position: initial;
 
-      >li {
-        position: initial;
+          >.dropdown-menu {
+            width: 100%;
+            display: block;
+            border: none;
+            background: rgba(255,255,255,0.9);
+            box-shadow: none;
 
-        >.dropdown-menu {
-          width: 100%;
-          display: block;
-          border: none;
-          background: rgba(255,255,255,0.9);
-          box-shadow: none;
-
-          li {
-            float: left;
+            li {
+              float: left;
+            }
           }
+        }
+
+        ul.dropdown-menu {
+          display: block;
+          width: 720px;
         }
       }
     }
+
+
   }
 }
 
