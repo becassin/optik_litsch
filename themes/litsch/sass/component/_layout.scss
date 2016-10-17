@@ -13,18 +13,36 @@
   }
 }
 
-.forest-picture {
-  margin-bottom: 15px;
+.forest-container {
+  @media #{$mobile} {
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -1px;
+  }
+
+  .forest-picture {
+    margin-bottom: 20px;
+  }
 }
+
 
 .block-views-blocknode-sidebar-picture-block-1,
 .field--name-field-block-picture {
-  margin-top: 200px;
+  margin-top: 20px;
+
+  @media #{$tablet} {
+    margin-top: 200px;
+  }
 }
 
 #block-litsch-footer ul.menu.nav {
   background: $dark-green;
   text-align: right;
+
+  @media #{$mobile}  {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
 
   a {
     color: $white;

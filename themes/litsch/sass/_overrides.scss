@@ -1,5 +1,11 @@
 // @todo these should be their own CSS files and only included when
 // specific Drupal libraries are used.
+//
+$mobile:  "screen and (max-width: #{$screen-xs-max})";
+$tablet:  "screen and (min-width: #{$screen-sm-min})";
+$normal:  "screen and (min-width: #{$screen-md-min})";
+$wide:    "screen and (min-width: #{$screen-lg-min})";
+
 @import "component/alert";
 @import "component/ajax";
 @import "component/contact";
@@ -41,7 +47,10 @@ img {
 // Footer.
 .footer {
   padding-top: 35px;
-  padding-bottom: 15px;
+
+  @media #{$tablet} {
+    padding-bottom: 20px;
+  }
 }
 
 // Paragraphs.
