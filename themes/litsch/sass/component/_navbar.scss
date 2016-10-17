@@ -50,22 +50,24 @@ body {
     display: none;
   }
 
-  .navbar-header {
+  @media #{$tablet} {
 
-    @media #{$tablet} {
+    .navbar-header {
       width: 25% !important;
       min-height: 1px;
+      position: relative;
+      text-align: center;
 
       .logo-big {
         position: absolute;
+        left: 0;
+        width: 100%;
+        top: 50px;
       }
     }
-  }
 
-  > .navbar-collapse {
+    > .navbar-collapse {
 
-
-    @media #{$tablet} {
       ul.navbar-nav {
         position: relative;
 
@@ -95,8 +97,6 @@ body {
         }
       }
     }
-
-
   }
 }
 
