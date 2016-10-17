@@ -42,6 +42,7 @@ img {
 // Page header.
 .page-header {
   margin-top: 0;
+  border-bottom: 0;
 }
 
 // Footer.
@@ -81,4 +82,16 @@ p:last-child,
   &:first-child {
     margin-top: 0;
   }
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+  @media #{$tablet} {
+    background: transparent;
+    color: black;
+    font-weight: bold;
+  }
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+  background: transparent;
 }
