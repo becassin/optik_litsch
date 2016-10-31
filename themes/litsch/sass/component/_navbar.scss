@@ -53,11 +53,13 @@ body {
       min-height: 1px;
       position: relative;
       text-align: center;
+      z-index: 2;
 
       .logo-big {
         position: absolute;
         left: 0;
-        width: 100%;
+        width: 225px;
+        padding: 0 30px;
         top: 50px;
       }
     }
@@ -66,13 +68,18 @@ body {
 
       ul.navbar-nav {
         position: relative;
+        padding-left: 10px;
 
         .caret {
           display: none;
         }
 
-        >li {
+        > li {
           position: initial;
+          
+          &:first-child a.is-active {
+            background: #eee;
+          }
 
           >.dropdown-menu {
             width: 100%;

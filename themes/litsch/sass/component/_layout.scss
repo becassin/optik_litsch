@@ -34,6 +34,12 @@
   @media #{$tablet} {
     margin-top: 200px;
   }
+  
+  @media #{$mobile} {
+    img {
+      margin: 0 auto;
+    }
+  }
 }
 
 #block-litsch-footer ul.menu.nav {
@@ -52,4 +58,8 @@
 
 .block-block-content6c1cc96c-6341-4e31-bf7c-85eae2c5fd35 {
   margin-bottom: 15px;
+}
+
+.left-sidebar {
+  padding-right: 0;
 }

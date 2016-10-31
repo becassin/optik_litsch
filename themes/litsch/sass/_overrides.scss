@@ -95,3 +95,7 @@ p:last-child,
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
   background: transparent;
 }
+
+.field--name-body a {
+  text-decoration: underline;
+}

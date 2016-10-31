@@ -1,3 +1,6 @@
 #block-litsch-footer ul.menu li {
-  display: inline-block;
+  
+  @media #{$tablet} {
+    display: inline-block;
+  }
 }
