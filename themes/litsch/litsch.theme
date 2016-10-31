@@ -5,3 +5,14 @@
  *
  * Place your custom PHP code in this file.
  */
+
+/**
+ * Implements hook_theme().
+ */
+function litsch_theme($existing, $type, $theme, $path) {
+  return [
+    'contact_message_feedback_form' => [
+      'render element' => 'form',
+    ],
+  ];
+}
