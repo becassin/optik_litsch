@@ -44,6 +44,8 @@
 
 #block-litsch-footer {
   background: $dark-green;
+  margin-top: 20px;
+  
   @media #{$mobile}  {
     margin-left: -20px;
     margin-right: -20px;
