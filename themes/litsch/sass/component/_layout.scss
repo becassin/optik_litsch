@@ -42,17 +42,29 @@
   }
 }
 
-#block-litsch-footer ul.menu.nav {
+#block-litsch-footer {
   background: $dark-green;
-  text-align: right;
-
   @media #{$mobile}  {
     margin-left: -20px;
     margin-right: -20px;
   }
+  
+  .footer-menu-left {
+    color: white;
+    padding: 10px 15px;
+    
+    a {
+      color: white;
+    }
+  }
 
-  a {
-    color: $white;
+  ul.menu.nav {
+    text-align: right;
+    float: right;
+
+    a {
+      color: $white;
+    }
   }
 }
 
